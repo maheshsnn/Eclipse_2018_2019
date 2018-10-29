@@ -4,12 +4,12 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.apache.commons.collections.map.LinkedMap;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -32,7 +32,7 @@ public class writetocell {
 	XSSFWorkbook wb=new XSSFWorkbook();
 	XSSFSheet s=wb.createSheet("mahesh");
 	
-	Map<String ,Object[]> datas=new LinkedMap();
+	Map<String ,Object[]> datas=new LinkedHashMap();
 	datas.put(a,new Object[]  { b,c,d });
 //    datas.put("2",new Object[]  { "1","mahesh","9" });
 //    datas.put("3",new Object[]  { "2","mahesh","9" });

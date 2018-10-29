@@ -8,8 +8,6 @@ import java.awt.event.KeyEvent;
 import java.net.URL;
 import java.util.Random;
 
-import org.apache.jasper.tagplugins.jstl.core.Url;
-import org.openqa.jetty.util.URI;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;

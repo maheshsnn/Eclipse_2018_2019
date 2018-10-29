@@ -9,7 +9,6 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 import org.apache.xerces.impl.xs.identity.Selector.Matcher;
-import org.hamcrest.Matchers;
 
 public class Javap {
 
