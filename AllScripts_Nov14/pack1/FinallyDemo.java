@@ -1,0 +1,28 @@
+package pack1;
+
+public class FinallyDemo {
+
+	public static void main(String[] args) {
+		try
+		{
+			int x=10,y=0;
+			int z=x/y;
+			System.out.println("The value of z is:"+z);
+			int a[]={1,2,3,4};
+			a[10]=20;
+			System.out.println("***** End of the try block *****");
+		}
+		/*catch(ArithmeticException e)
+		{
+			System.out.println(e);
+			System.out.println("***** End of the catch block *****");
+		}*/
+		finally
+		{
+			System.out.println("***** End of the finally block *****");
+		}
+		System.out.println("***** End of the program *****");
+
+	}
+
+}

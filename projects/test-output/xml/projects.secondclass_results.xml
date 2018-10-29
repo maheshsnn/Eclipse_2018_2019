@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="0.016">
+  <properties />
+            <testcase name="mh" time="0.000" classname="projects.secondclass">
+                <failure type="java.lang.IllegalStateException"
+                  message="The driver executable does not exist: G:\AUTOMATION WORKSPACE\lib\chromedriver.exe"
+              >
+<![CDATA[java.lang.IllegalStateException: The driver executable does not exist: G:\AUTOMATION WORKSPACE\lib\chromedriver.exe
+  com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+  org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+  org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+  org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+  org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+  org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+  org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+  projects.secondclass.mh(secondclass.java:31)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="s" time="0.0" classname="projects.secondclass">
+          <skipped />
+    </testcase>
+            <testcase name="mm" time="0.0" classname="projects.secondclass">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

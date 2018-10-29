@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: runners.Run_class
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE! - in runners.Run_class
+initializationError(runners.Run_class)  Time elapsed: 0.016 sec  <<< ERROR!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in testcases.facebook_login.Excecution_done() in file:/G:/AUTOMATION%20WORKSPACE/com.cucmber_java/target/test-classes/ and testcases.Case_one.Excecution_done() in file:/G:/AUTOMATION%20WORKSPACE/com.cucmber_java/target/test-classes/
+	at cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:33)
+	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:153)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:68)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:41)
+	at cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:89)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:90)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:68)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:64)
+	at cucumber.api.junit.Cucumber.createRuntime(Cucumber.java:78)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:58)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:29)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:21)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+

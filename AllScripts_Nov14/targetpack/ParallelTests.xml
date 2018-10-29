@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="tests">
+ 
+  <test name="Test in GC">
+  <parameter name="browser"  value="GC"/>
+      <classes>
+      <class name="targetpack.LinksDemo"/>
+      <class name="targetpack.WebTableDemo"/>
+      <class name="targetpack.AjaxDemo"/>
+     </classes>
+  </test>
+
+  
+  <test name="Test in FF">
+  <parameter name="browser"  value="FF"/>  
+      <classes>
+      <class name="targetpack.LinksDemo"/>
+      <class name="targetpack.WebTableDemo"/>
+      <class name="targetpack.AjaxDemo"/>
+     </classes>
+  </test>
+  
+</suite>

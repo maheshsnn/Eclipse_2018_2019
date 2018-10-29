@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="0.001">
+  <properties />
+            <testcase name="set" time="0.000" classname="projects.firtclass">
+                <failure type="java.lang.NoClassDefFoundError"
+                  message="org/openqa/selenium/remote/internal/CircularOutputStream"
+              >
+<![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/remote/internal/CircularOutputStream
+  org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
+  org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+  projects.firtclass.set(firtclass.java:28)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.internal.CircularOutputStream
+  java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+  java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+  sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+  java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+  org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
+  org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+  projects.firtclass.set(firtclass.java:28)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="s" time="0.0" classname="projects.firtclass">
+          <skipped />
+    </testcase>
+            <testcase name="mm" time="0.0" classname="projects.firtclass">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

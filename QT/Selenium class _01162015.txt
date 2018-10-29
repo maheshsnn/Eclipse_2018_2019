@@ -1,0 +1,187 @@
+1. Selenium
+
+2. Logistics domain Project
+
+3. Insurance Poject
+
+4. Core Java
+
+5. J Meter Basics
+
+6. Bugzilla
+
+-------------------------------------------------------------------------------
+
+1. SQL
+
+2. QC
+
+3. Unix
+
+4. JIRA
+
+5. Adavnced Testing
+
+6. Agile With Scrum Framework
+
+7. Mock Interview
+
+8. Plaements
+
+--------------------------------
+
+Appium-->2,000
+
+-----------------------------------------------------------
+
+7:30 to 10:30
+
+7:30 to 10:30
+------------------------------------------------------------------
+
+Monday
+
+----------------------------------------------------------------------
+Automation Process:
+
+
+1. Central Automation Team--> Responsible for estimations,developing frameworks,
+  Providing complex solutions and Assiting Functional Automation Team....
+
+2. Functional Automation Team--> Manual Testing team who are trained in Automation
+                                                       also...
+
+3. Manual Testing-->Exceution of Manual scripts and Automation scripts
+---------------------------------------------------------------------------------------------------------
+
+Step 1: Initially Central Automation team will get the request from BA,dev,Product Owner, Functional Team.....
+
+Step 2: Automation requests will be raised in JIRA Agile Tool
+
+Step 3: Automation lead will send a mail to Functional team for KT on the feature,
+            Existing problems in manual Testing and expectation(Time,Cost,ROI)
+ Automation Penetration Report...>Feasability Analysis
+
+Step 4: Automation lead with help of Automation testers ...POC
+            Happy Path: 
+
+Step 5: After developing POC,Central Automation team will give KT to Functional Automation team and Client....
+
+Step 6: If client is OK then they may ask Functional Automation team to complete the
+            remaining work
+
+Step 7:  Now if the work is simple then Central Automation team will assign the work
+
+             to Functional Automation team
+
+Step 8:  If the pending work is complex then Central Automation team will continue the
+
+work to build more succesful automation framework
+
+
+
+
+Q1: As a automation tester how you know your work allocation?
+
+Q2: Who will assign the Work?
+
+Q3: Explain Automation process in your project?
+
+Q4: You have started youir career as Functional tester then how you moved to Automation
+
+        in same project?
+
+Q5: How you do Fesibility Analysis? Give one real time example?
+
+
+Feasability Analysis: Identifying test case is right candidate for Automation testing or not
+
+1. Number of times we are executing in release
+
+2. Time taken for manual execution
+
+3. Complexity of Manual Test case
+
+    F E -->XML request-->Linux Server-->DB server,SYbase-->XML response
+
+4. Robotic test
+
+Regression is right candidate for Automation
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

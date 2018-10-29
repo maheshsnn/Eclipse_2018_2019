@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="FF"/>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="targetPack.Firefoxtest">
+        <methods>
+          <include name="zz"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- targetPack.Firefoxtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

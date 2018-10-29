@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="projects.testlistenerclass"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="projects.secondclass">
+        <methods>
+          <include name="mh"/>
+          <include name="mm"/>
+        </methods>
+      </class> <!-- projects.secondclass -->
+      <class name="projects.firtclass">
+        <methods>
+          <include name="s"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- projects.firtclass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

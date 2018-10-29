@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel Suites]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="targetPack.Mouseovers">
+        <methods>
+          <include name="setUp"/>
+          <include name="meth3"/>
+          <include name="meth2"/>
+        </methods>
+      </class> <!-- targetPack.Mouseovers -->
+      <class name="targetPack.LinksDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- targetPack.LinksDemo -->
+      <class name="targetPack.Jxl">
+        <methods>
+          <include name="setUp"/>
+          <include name="meth2"/>
+        </methods>
+      </class> <!-- targetPack.Jxl -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [parallel Suites] -->

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.096 sec <<< FAILURE! - in TestSuite
+set(projects.firtclass)  Time elapsed: 0.745 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/internal/CircularOutputStream
+	at projects.firtclass.set(firtclass.java:28)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.internal.CircularOutputStream
+	at projects.firtclass.set(firtclass.java:28)
+
+mh(projects.secondclass)  Time elapsed: 0.746 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/internal/CircularOutputStream
+	at projects.secondclass.mh(secondclass.java:26)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.internal.CircularOutputStream
+	at projects.secondclass.mh(secondclass.java:26)
+

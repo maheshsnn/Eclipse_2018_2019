@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parallel Suites" duration-ms="51337" started-at="2015-01-03T03:20:01Z" finished-at="2015-01-03T03:20:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51337" started-at="2015-01-03T03:20:01Z" finished-at="2015-01-03T03:20:52Z">
+      <class name="targetpack.LinksDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:targetpack.LinksDemo@ca1a93]" name="setUp" is-config="true" duration-ms="5911" started-at="2015-01-03T08:50:01Z" finished-at="2015-01-03T08:50:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLinks()[pri:0, instance:targetpack.LinksDemo@ca1a93]" name="testLinks" duration-ms="9991" started-at="2015-01-03T08:50:06Z" finished-at="2015-01-03T08:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:targetpack.LinksDemo@ca1a93]" name="tearDown" is-config="true" duration-ms="1388" started-at="2015-01-03T08:50:16Z" finished-at="2015-01-03T08:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- targetpack.LinksDemo -->
+      <class name="targetpack.AjaxDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:targetpack.AjaxDemo@5e6c89]" name="setUp" is-config="true" duration-ms="4962" started-at="2015-01-03T08:50:32Z" finished-at="2015-01-03T08:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAjax()[pri:0, instance:targetpack.AjaxDemo@5e6c89]" name="testAjax" duration-ms="13516" started-at="2015-01-03T08:50:37Z" finished-at="2015-01-03T08:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAjax -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:targetpack.AjaxDemo@5e6c89]" name="tearDown" is-config="true" duration-ms="1421" started-at="2015-01-03T08:50:50Z" finished-at="2015-01-03T08:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- targetpack.AjaxDemo -->
+      <class name="targetpack.WebTableDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:targetpack.WebTableDemo@127a1d8]" name="setUp" is-config="true" duration-ms="5525" started-at="2015-01-03T08:50:18Z" finished-at="2015-01-03T08:50:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dynamicTable()[pri:0, instance:targetpack.WebTableDemo@127a1d8]" name="dynamicTable" duration-ms="7266" started-at="2015-01-03T08:50:23Z" finished-at="2015-01-03T08:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:targetpack.WebTableDemo@127a1d8]" name="tearDown" is-config="true" duration-ms="1342" started-at="2015-01-03T08:50:31Z" finished-at="2015-01-03T08:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- targetpack.WebTableDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- parallel Suites -->
+</testng-results>

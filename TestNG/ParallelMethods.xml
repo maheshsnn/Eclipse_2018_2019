@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="methods">
+  <paramter name="browser" value="firefox"></p>
+  <test name="Test">
+      <classes>
+          <class name="qtdemos.ParallelMethods"/>
+      </classes>
+  </test>
+  
+</suite>

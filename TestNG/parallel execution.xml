@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="classes">
+  <parameter name="browser" value="FF"/>
+  <test name="Test">
+
+   <!--    <classes>
+      <class name="qtdemos.LinksDemo"/>
+      <class name="qtdemos.AjaxDemo"/>
+      <class name="qtdemos.BrowserHistoryDemo"/>
+     </classes> -->
+  </test>
+</suite>

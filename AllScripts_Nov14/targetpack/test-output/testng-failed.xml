@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel Suites]" parallel="tests">
+  <parameter name="browser" value="GC"/>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="targetpack.LinksDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- targetpack.LinksDemo -->
+      <class name="targetpack.AjaxDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- targetpack.AjaxDemo -->
+      <class name="targetpack.WebTableDemo">
+        <methods>
+          <include name="setUp"/>
+          <include name="dynamicTable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- targetpack.WebTableDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [parallel Suites] -->
