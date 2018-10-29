@@ -282,7 +282,7 @@ public class Xls_Reader {
      hlink_style.setFont(hlink_font);
      //hlink_style.setWrapText(true);
 
-     XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
+     XSSFHyperlink link =createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
      link.setAddress(url);
      cell.setHyperlink(link);
      cell.setCellStyle(hlink_style);
