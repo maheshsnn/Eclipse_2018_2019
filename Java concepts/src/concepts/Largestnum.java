@@ -21,15 +21,15 @@ public class Largestnum {
 	 if(arr[i]>largest)
 
 		{
-		secondlargest=largest;
+		//secondlargest=largest;
 		largest=arr[i];
 		}
 
-		else if(arr[i]>secondlargest)
+		/*else if(arr[i]>secondlargest)
 		{
 		
 		secondlargest=arr[i];		
-		}
+		}*/
  
 	 }
 

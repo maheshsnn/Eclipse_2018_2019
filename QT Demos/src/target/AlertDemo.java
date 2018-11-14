@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class AlertDemo {
 	WebDriver d;
 	@Test
-	public void testAlertDemo() throws Exception
+	public void testAlertDemo()
 	{
 		//d.manage().timeouts().implicitlyWait(2,TimeUnit.MINUTES);
 		d.get("https://retail.onlinesbi.com/retail/login.htm");
@@ -37,7 +37,7 @@ public class AlertDemo {
 		//Click on Ok button
 		al.accept();
 		d.findElement(By.id("label2")).sendKeys("Selenium");
-		Thread.sleep(5000);
+		
 		
 	}
 	@Before

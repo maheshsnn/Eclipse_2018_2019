@@ -36,7 +36,7 @@ public class Links
 		System.out.println("No of Links are" + l.size());
 		System.out.println("The Links are");
 		String links[]=new String[l.size()];
-		
+		//int i=0;
 		for(int i=0;i<l.size();i++)
 		{
 			l.get(i).getText();
