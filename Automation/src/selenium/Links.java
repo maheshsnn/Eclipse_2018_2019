@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -25,6 +27,9 @@ public class Links
 		d=new FirefoxDriver();
 		d.manage().window().maximize();
 		d.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		
+		//Wait waits=new FluentWait(d).withTimeout(200, TimeUnit.SECONDS).ignoring(Exception.class).pollingEvery(10,TimeUnit.SECONDS);
+				
 		
 	}
 	@Test
